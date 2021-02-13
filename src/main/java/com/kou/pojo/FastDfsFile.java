@@ -12,6 +12,12 @@ public class FastDfsFile {
     private String author;
     private String height;
 
+    public FastDfsFile(String name, byte[] content, String ext) {
+        this.name = name;
+        this.content = content;
+        this.ext = ext;
+    }
+
     public String getName() {
         return name;
     }
